@@ -25,7 +25,7 @@ In colorblending.cpp I also provide a short technical discussion of why
 correct channel blending actually requires a square root and so forth,
 if that's of interest to you.
 
-The TLDR version is, if you blend in a naieve manner, your channel
+The TLDR version is, if you blend in a naive manner, your channel
 values will be wrong, your blended color results will look somewhat to
 very sickly, and your software's lack of color-fu will quietly shame
 you, even if you're not aware of it. So use the class. :)
