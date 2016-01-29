@@ -57,8 +57,8 @@
 // code, use the one that is faster.) Note that depending on which macro you use, they
 // are used slightly differently.
 //
-// If you have real data (slow, no signficant benefit from macros, but here they are anyway):
-// ------------------------------------------------------------------------------------------
+// If you have real data (slow, no significant benefit from macros, but here they are anyway):
+// -------------------------------------------------------------------------------------------
 // #include "colorblending.h"
 // #include <math.h>
 //
