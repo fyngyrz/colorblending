@@ -30,6 +30,10 @@ advantage in returning results with that much of a speed advantage - it
 leaves more CPU for other things, always desirable when doing image
 processing.
 
+If you don't want the optimized 8-bit blending, the class supports
+disabling it while leaving the read-based blending intact, resulting in
+an overall negligable memory load.
+
 In colorblending.cpp I also provide a short technical discussion of why
 correct channel blending actually requires a square root and so forth,
 if that's of interest to you.
